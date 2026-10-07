@@ -1,8 +1,7 @@
 name = "LaMEM"
 uuid = "2e889f3d-35ce-4a77-8ea2-858aecb630f7"
-authors = ["Boris Kaus <kaus@uni-mainz.de>"]
 version = "0.5.4"
-
+authors = ["Boris Kaus <kaus@uni-mainz.de>"]
 
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -13,8 +12,8 @@ GeophysicalModelGenerator = "3700c31b-fa53-48a6-808a-ef22d5a84742"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LaMEM_jll = "15d6fa20-f789-5486-b71b-22b4ac8eb1c1"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
@@ -37,24 +36,23 @@ Dates = "1"
 DelimitedFiles = "1"
 DocStringExtensions = "0.9"
 GeoParams = "0.4, 0.5, 0.6, 0.7, 0.8"
-GeophysicalModelGenerator = "0.7.21"
+GeophysicalModelGenerator = "0.7.21, 0.8"
 Glob = "1"
 Interpolations = "0.10 - 0.16"
 LaMEM_jll = "3.1.0"
 LightXML = "0.9"
 LinearAlgebra = "1"
-Makie = "0.21, 0.22, 0.23, 0.24"
 MPI = "0.20"
 MPICH_jll = "4.3 - 5"
 MPIPreferences = "0.1"
+Makie = "0.21, 0.22, 0.23, 0.24"
 OpenBLAS32_jll = "0.3.33"
-Printf = "1"
 Plots = "1"
+Printf = "1"
 ReadVTK = "0.1, 0.2"
 Statistics = "1.0"
 WriteVTK = "1"
 julia = "1.12"
-
 
 [extras]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
